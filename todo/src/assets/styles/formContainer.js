@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FormContainer = styled.div`
-  margin-top: 60px;
+  margin-top: 80px;
   button {
     background-color: #1d88e3;
     border-style: none;

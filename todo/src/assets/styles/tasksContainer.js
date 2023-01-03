@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const TasksContainer = styled.div`
-  margin-top: 70px;
+  margin-top: 100px;
 
   ul {
     padding: 0%;

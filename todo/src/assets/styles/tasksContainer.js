@@ -27,6 +27,7 @@ export const TasksContainer = styled.div`
 
 export const Message = styled.p`
   font-size: 1em;
+  margin-top: 50px;
   text-align: center;
   color: ${(props) => props.theme.fontColor};
   text-decoration: underline;

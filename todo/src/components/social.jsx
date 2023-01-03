@@ -10,7 +10,7 @@ export default function Social() {
       <SocialContainer>
         <SocialNetWork>
           <a
-            href="https://github.com/SoaresLeonardo"
+            href="https://github.com/SoaresLeonardo/todo-app"
             target="_blank"
             rel="noreferrer"
           >

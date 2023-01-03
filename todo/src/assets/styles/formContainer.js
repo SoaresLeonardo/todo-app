@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const FormContainer = styled.div`
+  text-align: center;
   margin-top: 80px;
   button {
     background-color: #1d88e3;

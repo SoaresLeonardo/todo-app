@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const TasksContainer = styled.div`
-  margin-top: 50px;
+  margin-top: 70px;
 
   ul {
-    background-color: ${(props) => props.theme.urlBackground};
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: ${(props) => props.theme.urlBoxShadow};
+    padding: 0%;
+    /* background-color: ${(props) => props.theme.urlBackground}; */
+    /* border-radius: 5px; */
+    /* box-shadow: ${(props) => props.theme.urlBoxShadow}; */
   }
 
   li {
@@ -21,6 +21,7 @@ export const TasksContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     display: flex;
+    overflow: auto;
   }
 `;
 
@@ -30,7 +31,6 @@ export const Message = styled.p`
   color: ${(props) => props.theme.fontColor};
   text-decoration: underline;
 `;
-
 
 export const TotalTasks = styled.div`
   margin-top: 25px;

@@ -5,7 +5,7 @@ export const FormContainer = styled.div`
   button {
     background-color: #1d88e3;
     border-style: none;
-    padding: 8px 20px;
+    padding: 8px 10px;
     cursor: pointer;
     color: white;
     font-size: 1em;
@@ -17,7 +17,7 @@ export const FormContainer = styled.div`
     padding: 8px;
     border-radius: 5px;
     font-size: 1em;
-    background-color: ${(props) => props.theme.urlBackground};
+    background-color: ${(props) => props.theme.inputBackground};
     border-style: none;
     outline: none;
     color: ${(props) => props.theme.fontColor};

@@ -13,7 +13,7 @@ import Theme from './theme';
 import Social from './social';
 
 export default function TodoApp() {
-  const [theme, setTheme] = usePersistenState('theme', lightTheme);
+  const [theme, setTheme] = usePersistenState('theme', 'light');
   const [input, setInput] = useState('');
   const [tasks, setTasks] = usePersistenState('saveTasks', []);
   const [taskCounter, setTaskCounter] = usePersistenState('taskCounters', 0);

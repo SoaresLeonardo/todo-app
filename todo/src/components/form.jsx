@@ -12,7 +12,7 @@ export default function Form({ handleSubmit, input, setInput }) {
             type="text"
             placeholder="your task"
           />
-          <button type="submit">Create</button>
+          <button type="submit">Create task</button>
         </form>
       </FormContainer>
     </div>

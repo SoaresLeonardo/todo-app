@@ -8,6 +8,11 @@ export const BtnDeleteAll = styled.button`
   cursor: pointer;
   color: #2d2f37;
   font-size: 1em;
+  transition: 0.1s;
+  :hover {
+    background-color: #F44E3F;
+    color: white;
+  }
 `;
 
 export const DeleteBtn = styled.button`

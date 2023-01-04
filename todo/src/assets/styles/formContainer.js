@@ -2,11 +2,14 @@ import styled from 'styled-components';
 
 export const FormContainer = styled.div`
   text-align: center;
-  margin-top: 80px;
+  background-color: ${(props) => props.theme.todoBackground};
+  padding: 50px;
+  border-radius: 5px;
+  margin-top: 50px;
   button {
     background-color: #1d88e3;
     border-style: none;
-    padding: 8px 10px;
+    padding: 12px 10px;
     cursor: pointer;
     color: white;
     font-size: 1em;
@@ -15,7 +18,7 @@ export const FormContainer = styled.div`
   }
 
   input {
-    padding: 8px;
+    padding: 12px;
     border-radius: 5px;
     font-size: 1em;
     background-color: ${(props) => props.theme.inputBackground};

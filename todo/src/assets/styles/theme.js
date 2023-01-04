@@ -2,6 +2,7 @@ export const lightTheme = {
   body: '#ededf7',
   fontColor: ' #2d2f37',
   todoBackground: '#ffff',
+  liButton: '#bdbdc7',
   inputBackground: '#ededf7',
   liBackground: '#ffffff',
   urlBoxShadow: '2px 3px 7px #bdbdc7',

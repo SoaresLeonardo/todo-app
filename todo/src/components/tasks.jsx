@@ -13,10 +13,6 @@ export default function Tasks({
   return (
     <div>
       <TasksContainer>
-        <TotalTasks>
-          total tasks: {taskCounter}
-          <BtnDeleteAll onClick={btnDeleteAllTasks}>delete all</BtnDeleteAll>
-        </TotalTasks>
         <ul>
           {tasks.length >= 1
             ? tasks.map((task, index) => (
@@ -31,6 +27,10 @@ export default function Tasks({
               ))
             : messageCreateTask('create your tasks :)')}
         </ul>
+        <TotalTasks>
+          total tasks: {taskCounter}
+          <BtnDeleteAll onClick={btnDeleteAllTasks}>Delete all</BtnDeleteAll>
+        </TotalTasks>
       </TasksContainer>
     </div>
   );
